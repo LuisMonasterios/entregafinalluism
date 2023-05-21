@@ -109,17 +109,19 @@ nav li a:hover {
   margin: 0 auto;
   padding: 4px;
 }
-
+.sobreus {
+  margin: 0 auto;
+  width: 80%;
+  display: flexbox;
+}
 .img-us p img {
   border-radius: 10px;
 }
 
 .text-us {
   text-align: center;
-  width: 100%;
-  max-width: 90%;
+  width: 80%;
   margin: 0 auto;
-  background-color: rgb(226, 226, 226);
   padding: 20px;
   border-radius: 5px;
 }
