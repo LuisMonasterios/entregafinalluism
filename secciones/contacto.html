@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Contacto - HelpingYou.com</title>
-    <meta name="description" content="Área de Contacto de Helping You una pagina dedicada a recaudar fondos para ayudar a personas y animales en estado de calle.">
+    <meta name="description"
+        content="Área de Contacto de Helping You una pagina dedicada a recaudar fondos para ayudar a personas y animales en estado de calle.">
     <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
@@ -13,61 +14,68 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/3347/3347661.png" type="image/x-icon">
 </head>
+
 <body>
     <!-- NAVBAR -->
     <header>
-    <div class="noticia-header">
-        <p>¡Asiste al Evento de este 24 de Abril! Conoce más aquí</p>
-    </div>
-    <nav>
-        <p><a href="../index.html"><img src="../img/logo.png" alt="Logo de HelpingYou"></p></a>
-        <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="../secciones/nosotros.html">Nosotros</a></li>
-            <li><a href="../secciones/donar.html">Donativos</a></li>
-            <li><a href="../secciones/contacto.html">Cont&aacute;ctanos</a></li>
-        </ul>
-    </nav>
-</header>
-<main>
-    <!-- CAJAS -->
-    <!-- SLIDER -->
-    <div class="slider">
-        <div class="slides">
-            <div class="slider-item">
-                <img src="../img/slider.webp">
+        <div class="noticia-header">
+            <p>¡Asiste al Evento de este 24 de Abril! Conoce más aquí</p>
+        </div>
+        <nav>
+            <p><a href="../index.html"><img src="../img/logo.png" alt="Logo de HelpingYou"></p></a>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../secciones/nosotros.html">Nosotros</a></li>
+                <li><a href="../secciones/donar.html">Donativos</a></li>
+                <li><a href="../secciones/contacto.html">Cont&aacute;ctanos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- CAJAS -->
+        <!-- SLIDER -->
+        <div class="slider">
+            <div class="slides">
+                <div class="slider-item">
+                    <img src="../img/contacto.webp">
+                </div>
             </div>
         </div>
-    </div>
-    <!-- CAJAS DE INFORMACIÓN -->
-    <div class="form-box">
-        <h3>Aporta tus ideas, te escuchamos</h3>
-    <form>
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Email</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        <!-- CAJAS DE INFORMACIÓN -->
+        <h3 style="text-align:center;">Aporta tus ideas, aporta tu ayuda</h3><br>
+        <div class="contact-donar">
+            <div class="container-form">
+                <form>
+                    Nombres y Apellidos: <br>
+                    <input type="text" name="name"><br>
+                    Correo: <br>
+                    <input type="email" name="email"><br>
+                    Número de Celular: <br>
+                    <input type="tel" name="phone_number"><br>
+                    Comprobante de Donación: <br> 
+                    <input type="file" name="file"><br><br>
+                    <br><button type="submit">DONAR AHORA</button>
+                </form>
+            </div>
+            <div class="textodonar">
+                <h4>La importancia de tu ayuda...</h4>
+                <p>Ayudar en la actualidad se ha convertido en un acto bastante significativo para las personas que más
+                    necesitan. La globalización ha hecho maravillas en el mundo, nos ha hecho llegar a nuevas
+                    herramientas e innovaciones, pero tambien nos ha hecho enfocarnos en adaptarnos a esos cambios y
+                    olvidar que hay quienes no pueden adaptarse tan rápido o sencillamente que no tienen los recursos,
+                    por eso hoy queremos que puedas seguir ayudando a quienes más lo necesitan.</p>
+            </div>
         </div>
-        <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <!-- VIDEO DEMOSTRATIVO -->
+        <div class="iframe">
+            <h3>Así nos inspiramos</h3>
+            <iframe width="90%" height="500" src="https://www.youtube.com/embed/RdjPyGkh_4Y"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <p>Fuente: Canal de Dilo Nomás</p>
         </div>
-        <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Acepto los Terminos y Condiciones</label>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form></div>
-    <!-- VIDEO DEMOSTRATIVO -->
-    <div class="iframe">
-        <h3>Así nos inspiramos</h3>
-        <iframe width="90%" height="500" src="https://www.youtube.com/embed/RdjPyGkh_4Y" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
-        <p>Fuente: Canal de Dilo Nomás</p>
-    </div>
-</main>
+    </main>
     <!-- FOOTER -->
     <footer>
         <div class="rrsspadre">
