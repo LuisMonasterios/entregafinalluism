@@ -171,4 +171,25 @@ footer {
 .contacto {
   text-align: center;
   width: 90%;
+}
+
+/* FORMULARIO NUEVO */
+.contact-donar {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+}
+
+.container-form {
+  display: block;
+  width: 40%;
+  background-color: rgb(255, 216, 216);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.textodonar {
+  display: block;
+  width: 40%;
+  margin: 0px 0px 0px 50px;
 }/*# sourceMappingURL=style.css.map */
